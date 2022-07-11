@@ -1,0 +1,19 @@
+JAVA SCRIPT:
+1)js is scripting language
+2)js is used to create interactive web pages
+3)js is dynamic binding..
+4)js is used for manuplation of html pages (DOM) and css (CSS)
+ES1,
+ES5
+ES6
+
+--> client side scripting --> browser -->
+
+CHROME v8
+EDGE   chakra
+mf     spider monkey
+Safari  js core webkit
+----------------------
+external js file..
+inline js
+SCRIPT include
