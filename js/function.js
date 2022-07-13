@@ -11,3 +11,11 @@ sum()
 var ans = add(12,22)
 console.log("ans = ",ans)
 console.log("ans = ",add(12,222))
+
+
+var demo = () =>{
+
+}
+demo()
+//add{return}
+//functtion (arrow)
