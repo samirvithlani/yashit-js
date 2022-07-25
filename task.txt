@@ -1,0 +1,11 @@
+Student =[{}] JSON
+{name:samir,maths:50,sc:12,...}
+
+
+find topper of the class
+find looser of the class
+
+check who is having heighest marks in Maths
+
+filter --> sa,sanjay
+          r,ra  -> raj,rahul
