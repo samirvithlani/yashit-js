@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="onChange.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <form onsubmit="submit1()">
+      <div>
+        <label>ENTER NAME</label>
+        <input type="text" id="name" onchange="onChangeInput()" />
+      </div>
+      <div>
+        <label>GENDER</label>
+        MALE <input type="radio" id="male" name="gender" value="male"  onchange="onChangeInput()"/> FEMALE
+        <input type="radio" id = "female" name="gender" value="female"  onchange="onChangeInput()" />
+      </div>
+      <div>
+        <label>Hobbies</label>
+        Traveling<input type="checkbox" name="hobbies" value="traveling"  onchange="onChangeInput()">
+        Singing<input type="checkbox" name="hobbies" value="singing"  onchange="onChangeInput()">
+        Reading<input type="checkbox" name="hobbies" value="reading" onchange="onChangeInput()">
+      </div>
+      <div>
+        <label>Country</label>
+        <select name="Country" id ="country" onchange="onChangeInput()">
+            <option>SELECT COUNTRY</option>
+            <option value="India">INDIA</option>
+            <option value="Usa">USA</option>
+            <option value="Russia">RUSSIA</option>
+            <option value="Austrelia">AUSTRELIA</option>
+        </select>
+      </div>
+      <div>
+        <label>Enter Color</label>
+        <input type="color" name="color" value="color">
+      </div>
+      <div>
+        <label>Enter Date</label>
+        <input type="date" name="date" value="date">
+      </div>
+      <div>
+        <label>Enter Time</label>
+        <input type="time" name="time" value="time">
+      </div>
+      <div>
+        <label>Select file</label>
+        <input type="file" name="file" value="file">
+      </div>
+     
+      <div>
+        <label>Address</label>
+        <textarea name="address" id="address"></textarea>
+      </div>
+      <div>
+        <input type="submit" value="register">
+        
+
+      </div>
+    </form>
+  </body>
+</html>
